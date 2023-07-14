@@ -30,7 +30,7 @@ jobs:
    - run:
       name: Test
       command: |
-          print $DOCKER_REPO
+          echo $DOCKER_REPO
        
    - run:
       name: Testing application
